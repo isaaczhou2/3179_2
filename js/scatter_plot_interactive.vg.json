@@ -8,6 +8,17 @@
   },
   "params": [
     {
+      "name": "Population_Above",
+      "value": 0,
+      "bind": {
+        "input": "range",
+        "min": 0,
+        "max": 100000000,
+        "step": 1000000,
+        "name": "Minimum Population: "
+      }
+    },
+    {
       "name": "Region_selection",
       "bind": {
         "input": "select",
@@ -36,6 +47,7 @@
   "transform": [
     {"filter": "datum.Cumulative_cases > 0"},
     {"filter": "datum.Cumulative_deaths > 0"},
+
     {
       "filter": "Region_selection == null || datum.WHO_region == Region_selection"
     },
@@ -62,7 +74,17 @@
     }
   },
   "layer": [
-    {
+    {"transform": [{
+      "lookup": "Country",
+      "from":{
+        "data":{
+          "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Population"]
+      }
+    },
+    {"filter": "datum.Population > Population_Above"}],
       "mark": "circle",
       "encoding": {
         "size": {
@@ -106,13 +128,25 @@
         "opacity": {"value": 0.6},
         "tooltip": [
           {"field": "Country", "type": "nominal"},
-          {"field": "Cumulative_cases", "type": "quantitative", "format": ","},
-          {"field": "Cumulative_deaths", "type": "quantitative", "format": ","},
-          {"field":"Death per 10,000 cases", "type": "quantitative", "format": ".2f"}
+          {"field": "Cumulative_cases", "type": "quantitative", "format": ",","title":"Cumulative cases"},
+          {"field": "Cumulative_deaths", "type": "quantitative", "format": ",","title":"Cumulative deaths"},
+          {"field":"Death per 10,000 cases", "type": "quantitative", "format": ".2f"},
+          {"field":"Population","type": "quantitative", "format": ","}
         ]
       }
     },
-    {
+    {"transform": [{
+      "lookup": "Country",
+      "from":{
+        "data":{
+          "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/4_interactive_scatter_plot/data/COVID_19_10_Oct_2020.csv"
+        },
+        "key": "Country",
+        "fields": ["Population"]
+      }
+    },
+    {"filter": "datum.Population > Population_Above"}],
+
       "mark": {
         "type": "text",
         "align": "right",
@@ -132,10 +166,11 @@
           "value": 0
         },
         "tooltip": [
-          {"field": "Country", "type": "nominal"},
-          {"field": "Cumulative_cases", "type": "quantitative", "format": ","},
-          {"field": "Cumulative_deaths", "type": "quantitative", "format": ","},
-          {"field":"Death per 10,000 cases", "type": "quantitative", "format": ".2f"}
+          {"field": "Country", "type": "nominal","title":"Country or Region"},
+          {"field": "Cumulative_cases", "type": "quantitative", "format": ",","title":"Cumulative cases"},
+          {"field": "Cumulative_deaths", "type": "quantitative", "format": ",","title":"Cumulative deaths"},
+          {"field":"Death per 10,000 cases", "type": "quantitative", "format": ".2f"},
+          {"field":"Population","type": "quantitative", "format": ","}
 
         ]
       }
