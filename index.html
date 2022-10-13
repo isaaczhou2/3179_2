@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Multiple Visualisations | An Example</title>
+  <!-- Import Vega & Vega-Lite (does not have to be from CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script>
+
+  <!-- Import pure.css -->
+  <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.3/build/pure-min.css"
+    integrity="sha384-cg6SkqEOCV1NbJoCu11+bm0NvBRc8IYLRGXkmNrqUBfTjmMYwNKPWBTIKyw9mHNJ" crossorigin="anonymous">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+
+
+</head>
+
+<body>
+
+  <div class="page">
+
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-1-1">
+        <h1>FIT3179 Assignment 2 Visualisations</h1>
+        <p>This is the FIT3179 Assignment 2 Visualisations page.</p>
+      </div>
+    </div>
+    <!-- end pure grid group -->
+
+    <!-- pure grid group -->
+    <div id="choropleth_map"></div>
+
+    <script type="text/javascript">
+
+      var spec2 = "js/choropleth_map.vg.json";
+      vegaEmbed('#choropleth_map', spec2).then(function(result) {
+        // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+      }).catch(console.error);
+    </script>
+    <!-- end pure grid group -->
+
+    <div class="pure-g">
+        <div class="pure-u-1-1 small-font">
+          <p>
+
+
+
+          </p>
+        </div>
+      </div>
+  
+    <!-- pure grid group -->
+    <div class="pure-g">
+      <div class="pure-u-2-3">
+        <div id="vis2" class="vis-container"></div>
+      </div>
+      <div class="pure-u-1-3">
+        <div class="description description-right">
+          <h2>Countries Covid Data</h2>
+          <p> On the left hand side, is a bubble chart show the following:
+            Each bubble is a country, the x-axis represents its cumulative cases.
+            <p>And the y-axis represents its cumulative deaths.</p>
+            <p>The size of the bubble is a representation of death per 10,000 cases,
+                the colors are different WHO regions of these countries/regions.</p>
+            <p>Use the filters below to find out more details.</p>
+          </p>
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- end pure grid group -->
+    <div id="area_chart"></div>
+    <script type="text/javascript">
+
+        var spec2 = "js/area_chart.vg.json";
+        vegaEmbed('#area_chart', spec2).then(function(result) {
+          // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+        }).catch(console.error);
+      </script>
+
+  </div> <!-- end page -->
+
+  <script type="text/javascript">
+    var specVis1 = "line-chart-responsive.json";
+    var specVis2 = "js/scatter_plot_interactive.vg.json";
+
+    vegaEmbed('#vis1', specVis1, { "actions": false });
+
+    vegaEmbed('#vis2', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis3', specVis1, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+
+    vegaEmbed('#vis4', specVis2, { "actions": false }).then(function (result) {
+      // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+    }).catch(console.error);
+  </script>
+</body>
+
+</html>
