@@ -1,0 +1,661 @@
+,Country_code,Country,Data,Count
+0,AF,Afghanistan,New_cases,259
+1,AF,Afghanistan,Cumulative_cases,196663
+2,AF,Afghanistan,New_deaths,0
+3,AF,Afghanistan,Cumulative_deaths,7791
+4,AL,Albania,New_cases,104
+5,AL,Albania,Cumulative_cases,330149
+6,AL,Albania,New_deaths,0
+7,AL,Albania,Cumulative_deaths,3586
+8,DZ,Algeria,New_cases,9
+9,DZ,Algeria,Cumulative_cases,270570
+10,DZ,Algeria,New_deaths,0
+11,DZ,Algeria,Cumulative_deaths,6879
+12,AD,Andorra,New_cases,34
+13,AD,Andorra,Cumulative_cases,46147
+14,AD,Andorra,New_deaths,0
+15,AD,Andorra,Cumulative_deaths,155
+16,AO,Angola,New_cases,0
+17,AO,Angola,Cumulative_cases,103131
+18,AO,Angola,New_deaths,0
+19,AO,Angola,Cumulative_deaths,1917
+20,AG,Antigua and Barbuda,New_cases,34
+21,AG,Antigua and Barbuda,Cumulative_cases,9008
+22,AG,Antigua and Barbuda,New_deaths,0
+23,AG,Antigua and Barbuda,Cumulative_deaths,145
+24,AR,Argentina,New_cases,0
+25,AR,Argentina,Cumulative_cases,9697763
+26,AR,Argentina,New_deaths,0
+27,AR,Argentina,Cumulative_deaths,129830
+28,AM,Armenia,New_cases,0
+29,AM,Armenia,Cumulative_cases,439302
+30,AM,Armenia,New_deaths,0
+31,AM,Armenia,Cumulative_deaths,8669
+32,AU,Australia,New_cases,15298
+33,AU,Australia,Cumulative_cases,10145999
+34,AU,Australia,New_deaths,211
+35,AU,Australia,Cumulative_deaths,14632
+36,AT,Austria,New_cases,6177
+37,AT,Austria,Cumulative_cases,5003001
+38,AT,Austria,New_deaths,1
+39,AT,Austria,Cumulative_deaths,20664
+40,AZ,Azerbaijan,New_cases,371
+41,AZ,Azerbaijan,Cumulative_cases,818634
+42,AZ,Azerbaijan,New_deaths,9
+43,AZ,Azerbaijan,Cumulative_deaths,9873
+44,BS,Bahamas,New_cases,6
+45,BS,Bahamas,Cumulative_cases,37177
+46,BS,Bahamas,New_deaths,3
+47,BS,Bahamas,Cumulative_deaths,833
+48,BH,Bahrain,New_cases,288
+49,BH,Bahrain,Cumulative_cases,674909
+50,BH,Bahrain,New_deaths,0
+51,BH,Bahrain,Cumulative_deaths,1518
+52,BD,Bangladesh,New_cases,438
+53,BD,Bangladesh,Cumulative_cases,2016583
+54,BD,Bangladesh,New_deaths,1
+55,BD,Bangladesh,Cumulative_deaths,29337
+56,BB,Barbados,New_cases,104
+57,BB,Barbados,Cumulative_cases,101979
+58,BB,Barbados,New_deaths,2
+59,BB,Barbados,Cumulative_deaths,558
+60,BY,Belarus,New_cases,0
+61,BY,Belarus,Cumulative_cases,994037
+62,BY,Belarus,New_deaths,0
+63,BY,Belarus,Cumulative_deaths,7118
+64,BE,Belgium,New_cases,1728
+65,BE,Belgium,Cumulative_cases,4511587
+66,BE,Belgium,New_deaths,4
+67,BE,Belgium,Cumulative_deaths,32624
+68,BZ,Belize,New_cases,139
+69,BZ,Belize,Cumulative_cases,68612
+70,BZ,Belize,New_deaths,0
+71,BZ,Belize,Cumulative_deaths,680
+72,BJ,Benin,New_cases,0
+73,BJ,Benin,Cumulative_cases,27638
+74,BJ,Benin,New_deaths,0
+75,BJ,Benin,Cumulative_deaths,163
+76,BT,Bhutan,New_cases,0
+77,BT,Bhutan,Cumulative_cases,61419
+78,BT,Bhutan,New_deaths,0
+79,BT,Bhutan,Cumulative_deaths,21
+80,BA,Bosnia and Herzegovina,New_cases,135
+81,BA,Bosnia and Herzegovina,Cumulative_cases,397602
+82,BA,Bosnia and Herzegovina,New_deaths,2
+83,BA,Bosnia and Herzegovina,Cumulative_deaths,16104
+84,BW,Botswana,New_cases,0
+85,BW,Botswana,Cumulative_cases,326107
+86,BW,Botswana,New_deaths,0
+87,BW,Botswana,Cumulative_deaths,2779
+88,BR,Brazil,New_cases,10420
+89,BR,Brazil,Cumulative_cases,34544377
+90,BR,Brazil,New_deaths,104
+91,BR,Brazil,Cumulative_deaths,685002
+92,BG,Bulgaria,New_cases,544
+93,BG,Bulgaria,Cumulative_cases,1250250
+94,BG,Bulgaria,New_deaths,5
+95,BG,Bulgaria,Cumulative_deaths,37663
+96,BF,Burkina Faso,New_cases,0
+97,BF,Burkina Faso,Cumulative_cases,21128
+98,BF,Burkina Faso,New_deaths,0
+99,BF,Burkina Faso,Cumulative_deaths,387
+100,BI,Burundi,New_cases,0
+101,BI,Burundi,Cumulative_cases,49882
+102,BI,Burundi,New_deaths,0
+103,BI,Burundi,Cumulative_deaths,15
+104,CV,Cabo Verde,New_cases,4
+105,CV,Cabo Verde,Cumulative_cases,62350
+106,CV,Cabo Verde,New_deaths,0
+107,CV,Cabo Verde,Cumulative_deaths,410
+108,KH,Cambodia,New_cases,4
+109,KH,Cambodia,Cumulative_cases,137739
+110,KH,Cambodia,New_deaths,0
+111,KH,Cambodia,Cumulative_deaths,3056
+112,CM,Cameroon,New_cases,0
+113,CM,Cameroon,Cumulative_cases,121652
+114,CM,Cameroon,New_deaths,0
+115,CM,Cameroon,Cumulative_deaths,1935
+116,CA,Canada,New_cases,0
+117,CA,Canada,Cumulative_cases,4197701
+118,CA,Canada,New_deaths,0
+119,CA,Canada,Cumulative_deaths,44347
+120,CF,Central African Republic,New_cases,0
+121,CF,Central African Republic,Cumulative_cases,14903
+122,CF,Central African Republic,New_deaths,0
+123,CF,Central African Republic,Cumulative_deaths,113
+124,TD,Chad,New_cases,0
+125,TD,Chad,Cumulative_cases,7558
+126,TD,Chad,New_deaths,0
+127,TD,Chad,Cumulative_deaths,193
+128,CL,Chile,New_cases,3855
+129,CL,Chile,Cumulative_cases,4572350
+130,CL,Chile,New_deaths,8
+131,CL,Chile,Cumulative_deaths,60830
+132,CN,China,New_cases,52089
+133,CN,China,Cumulative_cases,6978242
+134,CN,China,New_deaths,47
+135,CN,China,Cumulative_deaths,25428
+136,CO,Colombia,New_cases,0
+137,CO,Colombia,Cumulative_cases,6304317
+138,CO,Colombia,New_deaths,0
+139,CO,Colombia,Cumulative_deaths,141708
+140,KM,Comoros,New_cases,0
+141,KM,Comoros,Cumulative_cases,8467
+142,KM,Comoros,New_deaths,0
+143,KM,Comoros,Cumulative_deaths,160
+144,CR,Costa Rica,New_cases,0
+145,CR,Costa Rica,Cumulative_cases,1105792
+146,CR,Costa Rica,New_deaths,0
+147,CR,Costa Rica,Cumulative_deaths,8913
+148,HR,Croatia,New_cases,1021
+149,HR,Croatia,Cumulative_cases,1222007
+150,HR,Croatia,New_deaths,4
+151,HR,Croatia,Cumulative_deaths,16817
+152,CU,Cuba,New_cases,21
+153,CU,Cuba,Cumulative_cases,1110948
+154,CU,Cuba,New_deaths,0
+155,CU,Cuba,Cumulative_deaths,8530
+156,CY,Cyprus,New_cases,0
+157,CY,Cyprus,Cumulative_cases,579899
+158,CY,Cyprus,New_deaths,0
+159,CY,Cyprus,Cumulative_deaths,1173
+160,CZ,Czechia,New_cases,2617
+161,CZ,Czechia,Cumulative_cases,4068418
+162,CZ,Czechia,New_deaths,6
+163,CZ,Czechia,Cumulative_deaths,40938
+164,DK,Denmark,New_cases,869
+165,DK,Denmark,Cumulative_cases,3283706
+166,DK,Denmark,New_deaths,4
+167,DK,Denmark,Cumulative_deaths,6987
+168,DJ,Djibouti,New_cases,0
+169,DJ,Djibouti,Cumulative_cases,15690
+170,DJ,Djibouti,New_deaths,0
+171,DJ,Djibouti,Cumulative_deaths,189
+172,DM,Dominica,New_cases,0
+173,DM,Dominica,Cumulative_cases,14852
+174,DM,Dominica,New_deaths,0
+175,DM,Dominica,Cumulative_deaths,68
+176,DO,Dominican Republic,New_cases,0
+177,DO,Dominican Republic,Cumulative_cases,641677
+178,DO,Dominican Republic,New_deaths,0
+179,DO,Dominican Republic,Cumulative_deaths,4384
+180,EC,Ecuador,New_cases,112
+181,EC,Ecuador,Cumulative_cases,999837
+182,EC,Ecuador,New_deaths,0
+183,EC,Ecuador,Cumulative_deaths,35884
+184,EG,Egypt,New_cases,0
+185,EG,Egypt,Cumulative_cases,515348
+186,EG,Egypt,New_deaths,0
+187,EG,Egypt,Cumulative_deaths,24796
+188,SV,El Salvador,New_cases,0
+189,SV,El Salvador,Cumulative_cases,201785
+190,SV,El Salvador,New_deaths,0
+191,SV,El Salvador,Cumulative_deaths,4228
+192,GQ,Equatorial Guinea,New_cases,0
+193,GQ,Equatorial Guinea,Cumulative_cases,16894
+194,GQ,Equatorial Guinea,New_deaths,0
+195,GQ,Equatorial Guinea,Cumulative_deaths,183
+196,ER,Eritrea,New_cases,1
+197,ER,Eritrea,Cumulative_cases,10164
+198,ER,Eritrea,New_deaths,0
+199,ER,Eritrea,Cumulative_deaths,103
+200,EE,Estonia,New_cases,0
+201,EE,Estonia,Cumulative_cases,599596
+202,EE,Estonia,New_deaths,0
+203,EE,Estonia,Cumulative_deaths,2661
+204,SZ,Eswatini,New_cases,0
+205,SZ,Eswatini,Cumulative_cases,73374
+206,SZ,Eswatini,New_deaths,0
+207,SZ,Eswatini,Cumulative_deaths,1422
+208,ET,Ethiopia,New_cases,18
+209,ET,Ethiopia,Cumulative_cases,493385
+210,ET,Ethiopia,New_deaths,0
+211,ET,Ethiopia,Cumulative_deaths,7572
+212,FJ,Fiji,New_cases,0
+213,FJ,Fiji,Cumulative_cases,68206
+214,FJ,Fiji,New_deaths,0
+215,FJ,Fiji,Cumulative_deaths,878
+216,FI,Finland,New_cases,94
+217,FI,Finland,Cumulative_cases,1277473
+218,FI,Finland,New_deaths,0
+219,FI,Finland,Cumulative_deaths,5858
+220,FR,France,New_cases,31003
+221,FR,France,Cumulative_cases,33763518
+222,FR,France,New_deaths,28
+223,FR,France,Cumulative_deaths,151057
+224,GA,Gabon,New_cases,0
+225,GA,Gabon,Cumulative_cases,48668
+226,GA,Gabon,New_deaths,0
+227,GA,Gabon,Cumulative_deaths,306
+228,GM,Gambia,New_cases,0
+229,GM,Gambia,Cumulative_cases,12415
+230,GM,Gambia,New_deaths,0
+231,GM,Gambia,Cumulative_deaths,372
+232,GE,Georgia,New_cases,0
+233,GE,Georgia,Cumulative_cases,1762206
+234,GE,Georgia,New_deaths,0
+235,GE,Georgia,Cumulative_deaths,16900
+236,DE,Germany,New_cases,41193
+237,DE,Germany,Cumulative_cases,32616366
+238,DE,Germany,New_deaths,6
+239,DE,Germany,Cumulative_deaths,148841
+240,GH,Ghana,New_cases,0
+241,GH,Ghana,Cumulative_cases,168616
+242,GH,Ghana,New_deaths,0
+243,GH,Ghana,Cumulative_deaths,1459
+244,GR,Greece,New_cases,0
+245,GR,Greece,Cumulative_cases,4838811
+246,GR,Greece,New_deaths,0
+247,GR,Greece,Cumulative_deaths,32894
+248,GD,Grenada,New_cases,38
+249,GD,Grenada,Cumulative_cases,19473
+250,GD,Grenada,New_deaths,0
+251,GD,Grenada,Cumulative_deaths,236
+252,GT,Guatemala,New_cases,0
+253,GT,Guatemala,Cumulative_cases,1112550
+254,GT,Guatemala,New_deaths,0
+255,GT,Guatemala,Cumulative_deaths,19684
+256,GN,Guinea,New_cases,0
+257,GN,Guinea,Cumulative_cases,37652
+258,GN,Guinea,New_deaths,0
+259,GN,Guinea,Cumulative_deaths,449
+260,GW,Guinea-Bissau,New_cases,0
+261,GW,Guinea-Bissau,Cumulative_cases,8796
+262,GW,Guinea-Bissau,New_deaths,0
+263,GW,Guinea-Bissau,Cumulative_deaths,175
+264,GY,Guyana,New_cases,17
+265,GY,Guyana,Cumulative_cases,71209
+266,GY,Guyana,New_deaths,0
+267,GY,Guyana,Cumulative_deaths,1279
+268,HT,Haiti,New_cases,0
+269,HT,Haiti,Cumulative_cases,33702
+270,HT,Haiti,New_deaths,0
+271,HT,Haiti,Cumulative_deaths,857
+272,VA,Holy See,New_cases,0
+273,VA,Holy See,Cumulative_cases,26
+274,VA,Holy See,New_deaths,0
+275,VA,Holy See,Cumulative_deaths,0
+276,HN,Honduras,New_cases,0
+277,HN,Honduras,Cumulative_cases,455669
+278,HN,Honduras,New_deaths,0
+279,HN,Honduras,Cumulative_deaths,10989
+280,HU,Hungary,New_cases,0
+281,HU,Hungary,Cumulative_cases,2070443
+282,HU,Hungary,New_deaths,0
+283,HU,Hungary,Cumulative_deaths,47409
+284,IS,Iceland,New_cases,0
+285,IS,Iceland,Cumulative_cases,205284
+286,IS,Iceland,New_deaths,0
+287,IS,Iceland,Cumulative_deaths,213
+288,IN,India,New_cases,6422
+289,IN,India,Cumulative_cases,44516479
+290,IN,India,New_deaths,34
+291,IN,India,Cumulative_deaths,528250
+292,ID,Indonesia,New_cases,2651
+293,ID,Indonesia,Cumulative_cases,6402686
+294,ID,Indonesia,New_deaths,21
+295,ID,Indonesia,Cumulative_deaths,157849
+296,IQ,Iraq,New_cases,0
+297,IQ,Iraq,Cumulative_cases,2458509
+298,IQ,Iraq,New_deaths,0
+299,IQ,Iraq,Cumulative_deaths,25348
+300,IE,Ireland,New_cases,259
+301,IE,Ireland,Cumulative_cases,1660635
+302,IE,Ireland,New_deaths,14
+303,IE,Ireland,Cumulative_deaths,7901
+304,IL,Israel,New_cases,1109
+305,IL,Israel,Cumulative_cases,4646875
+306,IL,Israel,New_deaths,0
+307,IL,Israel,Cumulative_deaths,11667
+308,IT,Italy,New_cases,18849
+309,IT,Italy,Cumulative_cases,22096450
+310,IT,Italy,New_deaths,69
+311,IT,Italy,Cumulative_deaths,176404
+312,JM,Jamaica,New_cases,0
+313,JM,Jamaica,Cumulative_cases,150909
+314,JM,Jamaica,New_deaths,1
+315,JM,Jamaica,Cumulative_deaths,3286
+316,JP,Japan,New_cases,99546
+317,JP,Japan,Cumulative_cases,20399933
+318,JP,Japan,New_deaths,192
+319,JP,Japan,Cumulative_deaths,43177
+320,JO,Jordan,New_cases,0
+321,JO,Jordan,Cumulative_cases,1742256
+322,JO,Jordan,New_deaths,0
+323,JO,Jordan,Cumulative_deaths,14114
+324,KZ,Kazakhstan,New_cases,181
+325,KZ,Kazakhstan,Cumulative_cases,1482094
+326,KZ,Kazakhstan,New_deaths,0
+327,KZ,Kazakhstan,Cumulative_deaths,19047
+328,KE,Kenya,New_cases,1
+329,KE,Kenya,Cumulative_cases,338308
+330,KE,Kenya,New_deaths,0
+331,KE,Kenya,Cumulative_deaths,5675
+332,KW,Kuwait,New_cases,0
+333,KW,Kuwait,Cumulative_cases,657745
+334,KW,Kuwait,New_deaths,0
+335,KW,Kuwait,Cumulative_deaths,2563
+336,KG,Kyrgyzstan,New_cases,0
+337,KG,Kyrgyzstan,Cumulative_cases,205920
+338,KG,Kyrgyzstan,New_deaths,0
+339,KG,Kyrgyzstan,Cumulative_deaths,2991
+340,LV,Latvia,New_cases,1419
+341,LV,Latvia,Cumulative_cases,912002
+342,LV,Latvia,New_deaths,1
+343,LV,Latvia,Cumulative_deaths,5965
+344,LB,Lebanon,New_cases,217
+345,LB,Lebanon,Cumulative_cases,1213200
+346,LB,Lebanon,New_deaths,2
+347,LB,Lebanon,Cumulative_deaths,10650
+348,LS,Lesotho,New_cases,0
+349,LS,Lesotho,Cumulative_cases,34490
+350,LS,Lesotho,New_deaths,0
+351,LS,Lesotho,Cumulative_deaths,706
+352,LR,Liberia,New_cases,0
+353,LR,Liberia,Cumulative_cases,7929
+354,LR,Liberia,New_deaths,0
+355,LR,Liberia,Cumulative_deaths,294
+356,LY,Libya,New_cases,20
+357,LY,Libya,Cumulative_cases,506909
+358,LY,Libya,New_deaths,0
+359,LY,Libya,Cumulative_deaths,6437
+360,LI,Liechtenstein,New_cases,0
+361,LI,Liechtenstein,Cumulative_cases,19351
+362,LI,Liechtenstein,New_deaths,0
+363,LI,Liechtenstein,Cumulative_deaths,85
+364,LT,Lithuania,New_cases,1556
+365,LT,Lithuania,Cumulative_cases,1232416
+366,LT,Lithuania,New_deaths,4
+367,LT,Lithuania,Cumulative_deaths,9303
+368,LU,Luxembourg,New_cases,198
+369,LU,Luxembourg,Cumulative_cases,288527
+370,LU,Luxembourg,New_deaths,0
+371,LU,Luxembourg,Cumulative_deaths,1126
+372,MG,Madagascar,New_cases,0
+373,MG,Madagascar,Cumulative_cases,66652
+374,MG,Madagascar,New_deaths,0
+375,MG,Madagascar,Cumulative_deaths,1410
+376,MW,Malawi,New_cases,0
+377,MW,Malawi,Cumulative_cases,87842
+378,MW,Malawi,New_deaths,0
+379,MW,Malawi,Cumulative_deaths,2675
+380,MY,Malaysia,New_cases,2431
+381,MY,Malaysia,Cumulative_cases,4811327
+382,MY,Malaysia,New_deaths,5
+383,MY,Malaysia,Cumulative_deaths,36296
+384,MV,Maldives,New_cases,0
+385,MV,Maldives,Cumulative_cases,184966
+386,MV,Maldives,New_deaths,0
+387,MV,Maldives,Cumulative_deaths,308
+388,ML,Mali,New_cases,55
+389,ML,Mali,Cumulative_cases,32385
+390,ML,Mali,New_deaths,0
+391,ML,Mali,Cumulative_deaths,739
+392,MT,Malta,New_cases,25
+393,MT,Malta,Cumulative_cases,114348
+394,MT,Malta,New_deaths,0
+395,MT,Malta,Cumulative_deaths,803
+396,MR,Mauritania,New_cases,0
+397,MR,Mauritania,Cumulative_cases,62778
+398,MR,Mauritania,New_deaths,0
+399,MR,Mauritania,Cumulative_deaths,993
+400,MU,Mauritius,New_cases,0
+401,MU,Mauritius,Cumulative_cases,260947
+402,MU,Mauritius,New_deaths,0
+403,MU,Mauritius,Cumulative_deaths,1024
+404,MX,Mexico,New_cases,0
+405,MX,Mexico,Cumulative_cases,7059936
+406,MX,Mexico,New_deaths,0
+407,MX,Mexico,Cumulative_deaths,329767
+408,MC,Monaco,New_cases,9
+409,MC,Monaco,Cumulative_cases,14471
+410,MC,Monaco,New_deaths,0
+411,MC,Monaco,Cumulative_deaths,63
+412,MN,Mongolia,New_cases,0
+413,MN,Mongolia,Cumulative_cases,981921
+414,MN,Mongolia,New_deaths,0
+415,MN,Mongolia,Cumulative_deaths,2130
+416,ME,Montenegro,New_cases,173
+417,ME,Montenegro,Cumulative_cases,277809
+418,ME,Montenegro,New_deaths,0
+419,ME,Montenegro,Cumulative_deaths,2778
+420,MA,Morocco,New_cases,21
+421,MA,Morocco,Cumulative_cases,1264711
+422,MA,Morocco,New_deaths,0
+423,MA,Morocco,Cumulative_deaths,16276
+424,MZ,Mozambique,New_cases,4
+425,MZ,Mozambique,Cumulative_cases,230184
+426,MZ,Mozambique,New_deaths,0
+427,MZ,Mozambique,Cumulative_deaths,2222
+428,,Namibia,New_cases,0
+429,,Namibia,Cumulative_cases,166645
+430,,Namibia,New_deaths,0
+431,,Namibia,Cumulative_deaths,4077
+432,NP,Nepal,New_cases,75
+433,NP,Nepal,Cumulative_cases,999121
+434,NP,Nepal,New_deaths,0
+435,NP,Nepal,Cumulative_deaths,12015
+436,NL,Netherlands,New_cases,0
+437,NL,Netherlands,Cumulative_cases,8401272
+438,NL,Netherlands,New_deaths,0
+439,NL,Netherlands,Cumulative_deaths,22620
+440,NZ,New Zealand,New_cases,0
+441,NZ,New Zealand,Cumulative_cases,1745181
+442,NZ,New Zealand,New_deaths,0
+443,NZ,New Zealand,Cumulative_deaths,2955
+444,NI,Nicaragua,New_cases,0
+445,NI,Nicaragua,Cumulative_cases,14990
+446,NI,Nicaragua,New_deaths,0
+447,NI,Nicaragua,Cumulative_deaths,244
+448,NE,Niger,New_cases,0
+449,NE,Niger,Cumulative_cases,9388
+450,NE,Niger,New_deaths,0
+451,NE,Niger,Cumulative_deaths,312
+452,NG,Nigeria,New_cases,127
+453,NG,Nigeria,Cumulative_cases,264744
+454,NG,Nigeria,New_deaths,1
+455,NG,Nigeria,Cumulative_deaths,3155
+456,MK,North Macedonia,New_cases,141
+457,MK,North Macedonia,Cumulative_cases,341889
+458,MK,North Macedonia,New_deaths,1
+459,MK,North Macedonia,Cumulative_deaths,9516
+460,NO,Norway,New_cases,79
+461,NO,Norway,Cumulative_cases,1461249
+462,NO,Norway,New_deaths,0
+463,NO,Norway,Cumulative_deaths,4038
+464,OM,Oman,New_cases,0
+465,OM,Oman,Cumulative_cases,397993
+466,OM,Oman,New_deaths,0
+467,OM,Oman,Cumulative_deaths,4628
+468,PK,Pakistan,New_cases,235
+469,PK,Pakistan,Cumulative_cases,1571530
+470,PK,Pakistan,New_deaths,4
+471,PK,Pakistan,Cumulative_deaths,30604
+472,PA,Panama,New_cases,0
+473,PA,Panama,Cumulative_cases,984234
+474,PA,Panama,New_deaths,0
+475,PA,Panama,Cumulative_deaths,8487
+476,PG,Papua New Guinea,New_cases,9
+477,PG,Papua New Guinea,Cumulative_cases,44931
+478,PG,Papua New Guinea,New_deaths,0
+479,PG,Papua New Guinea,Cumulative_deaths,664
+480,PY,Paraguay,New_cases,0
+481,PY,Paraguay,Cumulative_cases,715806
+482,PY,Paraguay,New_deaths,0
+483,PY,Paraguay,Cumulative_deaths,19530
+484,PE,Peru,New_cases,1150
+485,PE,Peru,Cumulative_cases,4127612
+486,PE,Peru,New_deaths,22
+487,PE,Peru,Cumulative_deaths,216173
+488,PH,Philippines,New_cases,1617
+489,PH,Philippines,Cumulative_cases,3911395
+490,PH,Philippines,New_deaths,34
+491,PH,Philippines,Cumulative_deaths,62416
+492,PL,Poland,New_cases,5858
+493,PL,Poland,Cumulative_cases,6233117
+494,PL,Poland,New_deaths,17
+495,PL,Poland,Cumulative_deaths,117316
+496,PT,Portugal,New_cases,3066
+497,PT,Portugal,Cumulative_cases,5451286
+498,PT,Portugal,New_deaths,11
+499,PT,Portugal,Cumulative_deaths,24944
+500,QA,Qatar,New_cases,790
+501,QA,Qatar,Cumulative_cases,438499
+502,QA,Qatar,New_deaths,0
+503,QA,Qatar,Cumulative_deaths,682
+504,RO,Romania,New_cases,2254
+505,RO,Romania,Cumulative_cases,3247140
+506,RO,Romania,New_deaths,8
+507,RO,Romania,Cumulative_deaths,66882
+508,RW,Rwanda,New_cases,0
+509,RW,Rwanda,Cumulative_cases,132474
+510,RW,Rwanda,New_deaths,0
+511,RW,Rwanda,Cumulative_deaths,1466
+512,KN,Saint Kitts and Nevis,New_cases,0
+513,KN,Saint Kitts and Nevis,Cumulative_cases,6536
+514,KN,Saint Kitts and Nevis,New_deaths,0
+515,KN,Saint Kitts and Nevis,Cumulative_deaths,46
+516,LC,Saint Lucia,New_cases,0
+517,LC,Saint Lucia,Cumulative_cases,28959
+518,LC,Saint Lucia,New_deaths,0
+519,LC,Saint Lucia,Cumulative_deaths,393
+520,VC,Saint Vincent and the Grenadines,New_cases,0
+521,VC,Saint Vincent and the Grenadines,Cumulative_cases,9446
+522,VC,Saint Vincent and the Grenadines,New_deaths,0
+523,VC,Saint Vincent and the Grenadines,Cumulative_deaths,116
+524,SM,San Marino,New_cases,12
+525,SM,San Marino,Cumulative_cases,20552
+526,SM,San Marino,New_deaths,0
+527,SM,San Marino,Cumulative_deaths,118
+528,ST,Sao Tome and Principe,New_cases,0
+529,ST,Sao Tome and Principe,Cumulative_cases,6193
+530,ST,Sao Tome and Principe,New_deaths,0
+531,ST,Sao Tome and Principe,Cumulative_deaths,76
+532,SA,Saudi Arabia,New_cases,107
+533,SA,Saudi Arabia,Cumulative_cases,814829
+534,SA,Saudi Arabia,New_deaths,2
+535,SA,Saudi Arabia,Cumulative_deaths,9322
+536,SN,Senegal,New_cases,0
+537,SN,Senegal,Cumulative_cases,88230
+538,SN,Senegal,New_deaths,0
+539,SN,Senegal,Cumulative_deaths,1968
+540,RS,Serbia,New_cases,2870
+541,RS,Serbia,Cumulative_cases,2324719
+542,RS,Serbia,New_deaths,9
+543,RS,Serbia,Cumulative_deaths,16846
+544,SC,Seychelles,New_cases,0
+545,SC,Seychelles,Cumulative_cases,46358
+546,SC,Seychelles,New_deaths,0
+547,SC,Seychelles,Cumulative_deaths,169
+548,SL,Sierra Leone,New_cases,0
+549,SL,Sierra Leone,Cumulative_cases,7749
+550,SL,Sierra Leone,New_deaths,0
+551,SL,Sierra Leone,Cumulative_deaths,125
+552,SG,Singapore,New_cases,2426
+553,SG,Singapore,Cumulative_cases,1867168
+554,SG,Singapore,New_deaths,2
+555,SG,Singapore,Cumulative_deaths,1604
+556,SK,Slovakia,New_cases,347
+557,SK,Slovakia,Cumulative_cases,1838393
+558,SK,Slovakia,New_deaths,5
+559,SK,Slovakia,Cumulative_deaths,20426
+560,SI,Slovenia,New_cases,2533
+561,SI,Slovenia,Cumulative_cases,1149382
+562,SI,Slovenia,New_deaths,2
+563,SI,Slovenia,Cumulative_deaths,8209
+564,SO,Somalia,New_cases,0
+565,SO,Somalia,Cumulative_cases,27197
+566,SO,Somalia,New_deaths,0
+567,SO,Somalia,Cumulative_deaths,1361
+568,ZA,South Africa,New_cases,262
+569,ZA,South Africa,Cumulative_cases,4014986
+570,ZA,South Africa,New_deaths,17
+571,ZA,South Africa,Cumulative_deaths,102146
+572,SS,South Sudan,New_cases,0
+573,SS,South Sudan,Cumulative_cases,17780
+574,SS,South Sudan,New_deaths,0
+575,SS,South Sudan,Cumulative_deaths,138
+576,ES,Spain,New_cases,0
+577,ES,Spain,Cumulative_cases,13374116
+578,ES,Spain,New_deaths,0
+579,ES,Spain,Cumulative_deaths,113279
+580,LK,Sri Lanka,New_cases,22
+581,LK,Sri Lanka,Cumulative_cases,670541
+582,LK,Sri Lanka,New_deaths,1
+583,LK,Sri Lanka,Cumulative_deaths,16738
+584,SD,Sudan,New_cases,0
+585,SD,Sudan,Cumulative_cases,63275
+586,SD,Sudan,New_deaths,0
+587,SD,Sudan,Cumulative_deaths,4961
+588,SR,Suriname,New_cases,21
+589,SR,Suriname,Cumulative_cases,81078
+590,SR,Suriname,New_deaths,0
+591,SR,Suriname,Cumulative_deaths,1384
+592,SE,Sweden,New_cases,1109
+593,SE,Sweden,Cumulative_cases,2577583
+594,SE,Sweden,New_deaths,1
+595,SE,Sweden,Cumulative_deaths,20099
+596,CH,Switzerland,New_cases,0
+597,CH,Switzerland,Cumulative_cases,4053997
+598,CH,Switzerland,New_deaths,0
+599,CH,Switzerland,Cumulative_deaths,13550
+600,TJ,Tajikistan,New_cases,0
+601,TJ,Tajikistan,Cumulative_cases,17786
+602,TJ,Tajikistan,New_deaths,0
+603,TJ,Tajikistan,Cumulative_deaths,125
+604,TH,Thailand,New_cases,1125
+605,TH,Thailand,Cumulative_cases,4671309
+606,TH,Thailand,New_deaths,13
+607,TH,Thailand,Cumulative_deaths,32591
+608,TL,Timor-Leste,New_cases,5
+609,TL,Timor-Leste,Cumulative_cases,23237
+610,TL,Timor-Leste,New_deaths,0
+611,TL,Timor-Leste,Cumulative_deaths,138
+612,TG,Togo,New_cases,8
+613,TG,Togo,Cumulative_cases,38678
+614,TG,Togo,New_deaths,0
+615,TG,Togo,Cumulative_deaths,284
+616,TT,Trinidad and Tobago,New_cases,146
+617,TT,Trinidad and Tobago,Cumulative_cases,181567
+618,TT,Trinidad and Tobago,New_deaths,2
+619,TT,Trinidad and Tobago,Cumulative_deaths,4176
+620,TN,Tunisia,New_cases,0
+621,TN,Tunisia,Cumulative_cases,1145163
+622,TN,Tunisia,New_deaths,0
+623,TN,Tunisia,Cumulative_deaths,29243
+624,UG,Uganda,New_cases,0
+625,UG,Uganda,Cumulative_cases,169023
+626,UG,Uganda,New_deaths,0
+627,UG,Uganda,Cumulative_deaths,3628
+628,UA,Ukraine,New_cases,0
+629,UA,Ukraine,Cumulative_cases,5096397
+630,UA,Ukraine,New_deaths,0
+631,UA,Ukraine,Cumulative_deaths,108955
+632,AE,United Arab Emirates,New_cases,402
+633,AE,United Arab Emirates,Cumulative_cases,1021191
+634,AE,United Arab Emirates,New_deaths,0
+635,AE,United Arab Emirates,Cumulative_deaths,2342
+636,US,United States of America,New_cases,76462
+637,US,United States of America,Cumulative_cases,94152573
+638,US,United States of America,New_deaths,624
+639,US,United States of America,Cumulative_deaths,1040506
+640,UY,Uruguay,New_cases,0
+641,UY,Uruguay,Cumulative_cases,982846
+642,UY,Uruguay,New_deaths,0
+643,UY,Uruguay,Cumulative_deaths,7462
+644,UZ,Uzbekistan,New_cases,13
+645,UZ,Uzbekistan,Cumulative_cases,244006
+646,UZ,Uzbekistan,New_deaths,0
+647,UZ,Uzbekistan,Cumulative_deaths,1637
+648,YE,Yemen,New_cases,0
+649,YE,Yemen,Cumulative_cases,11932
+650,YE,Yemen,New_deaths,0
+651,YE,Yemen,Cumulative_deaths,2155
+652,ZM,Zambia,New_cases,0
+653,ZM,Zambia,Cumulative_cases,333229
+654,ZM,Zambia,New_deaths,0
+655,ZM,Zambia,Cumulative_deaths,4017
+656,ZW,Zimbabwe,New_cases,0
+657,ZW,Zimbabwe,Cumulative_cases,256939
+658,ZW,Zimbabwe,New_deaths,0
+659,ZW,Zimbabwe,Cumulative_deaths,5596
