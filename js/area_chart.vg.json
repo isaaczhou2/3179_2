@@ -1,87 +1,224 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "data": {
-    "url":
-    "https://raw.githubusercontent.com/isaaczhou2/3179_2/main/data/Date_Data.csv"
-    },
-    "vconcat": [
-    {"title":"Cumulative Cases(X100) and Deaths",
-    "width":720,
-    "height":200,
-    "layer":[
-    {"transform": [
-      {"calculate": "(datum.Cumulative_cases+0.1)/100","as": "Cumulative_cases"}
-    ],
-    "mark": "area",
-    "encoding": {
-    "x": {
-    "field": "Date",
-    "type": "temporal",
-    "scale": {"domain": {"param": "brush"}},
-    "axis": {"title": ""}
-    },
-    "y": {"field": "Cumulative_cases", "type": "quantitative"}
-    }}, 
-     {
-    "mark": "area",
-    "encoding": {
-    "x": {
-    "field": "Date",
-    "type": "temporal",
-    "scale": {"domain": {"param": "brush"}},
-    "axis": {"title": ""}},
-    "y": {"field": "Cumulative_deaths", "type": "quantitative"},
-    "color":{"value":"red"}}}
-    ]
-    },
-    
-    { "width":720,
-      "height":200,
-      "title":"New Cases(X1000) and Deaths",
-      "layer": [
-        {"transform": [
-      {"calculate": "(datum.New_cases+0.1)/1000","as": "New_cases"}
-    ],
-          "mark": "line",
-        "encoding": {
-        "x": {
-        "field": "Date",
-        "type": "temporal",
-        "scale": {"domain": {"param": "brush"}},
-        "axis": {"title": ""}
-        },
-        "y": {"field": "New_cases", "type": "quantitative"}
-    }
-        },
-         {
-    "mark": "line",
-    "encoding": {
-    "x": {
-    "field": "Date",
-    "type": "temporal",
-    "scale": {"domain": {"param": "brush"}},
-    "axis": {"title": ""}},
-    "y": {"field": "New_deaths", "type": "quantitative"},
-    "color":{"value":"red"}}}
-      ]
-    }
-    ,
-    
-    {
-      "title":"Filter by Date range",
-    "width": 720,
-    "height": 60,
-    "params": [
-    {"name": "brush", "select": {"type": "interval",
-    "encodings": ["x"]}}
-    ],
-    "mark": "area",
-    "encoding": {
-    "x": {"field": "Date", "type": "temporal"},
-    "y": {
-    "field": "Cumulative_cases",
-    "type": "quantitative",
-    "axis": {"tickCount": 3, "grid": false}}
-    }}
-    ]
-    }
+   "$schema":"https://vega.github.io/schema/vega-lite/v5.json",
+   "data":{
+      "url":"https://raw.githubusercontent.com/isaaczhou2/3179_2/main/data/Date_Data.csv"
+   },
+   "vconcat":[
+      {
+         "title":"Cumulative Cases(X100) and Deaths",
+         "width":750,
+         "height":200,
+         "layer":[
+            {
+               "transform":[
+                  {
+                     "calculate":"(datum.Cumulative_cases+0.1)/100",
+                     "as":"Cumulative_cases"
+                  }
+               ],
+               "mark":"area",
+               "encoding":{
+                  "x":{
+                     "field":"Date",
+                     "type":"temporal",
+                     "scale":{
+                        "domain":{
+                           "param":"brush"
+                        }
+                     },
+                     "axis":{
+                        "title":""
+                     }
+                  },
+                  "y":{
+                     "field":"Cumulative_cases",
+                     "type":"quantitative",
+                     "title":null
+                  },
+                  "tooltip":[
+                     {
+                        "field":"Date",
+                        "timeUnit":"yearmonthdate",
+                        "format":"%d-%m-%Y",
+                        "title":"Date"
+                     },
+                     {
+                        "field":"Cumulative_cases",
+                        "format":",.0f",
+                        "title":"Cumulative cases(X100)"
+                     },
+                     {
+                        "field":"Cumulative_deaths",
+                        "format":",.0f",
+                        "title":"Cumulative deaths"
+                     }
+                  ]
+               }
+            },
+            {
+               "mark":"area",
+               "encoding":{
+                  "x":{
+                     "field":"Date",
+                     "type":"temporal",
+                     "scale":{
+                        "domain":{
+                           "param":"brush"
+                        }
+                     },
+                     "axis":{
+                        "title":""
+                     }
+                  },
+                  "y":{
+                     "field":"Cumulative_deaths",
+                     "type":"quantitative"
+                  },
+                  "color":{
+                     "value":"red"
+                  }
+               }
+            }
+         ]
+      },
+      {
+         "width":750,
+         "height":200,
+         "title":"New Cases(X1000) and Deaths",
+         "layer":[
+            {
+               "transform":[
+                  {
+                     "calculate":"(datum.New_cases+0.1)/1000",
+                     "as":"New_cases"
+                  }
+               ],
+               "mark":{
+                  "type":"line",
+                  "strokeWidth":4
+               },
+               "encoding":{
+                  "x":{
+                     "field":"Date",
+                     "type":"temporal",
+                     "scale":{
+                        "domain":{
+                           "param":"brush"
+                        }
+                     },
+                     "axis":{
+                        "title":""
+                     }
+                  },
+                  "y":{
+                     "field":"New_cases",
+                     "type":"quantitative",
+                     "title":null
+                  },
+                  "tooltip":[
+                     {
+                        "field":"Date",
+                        "timeUnit":"yearmonthdate",
+                        "format":"%d-%m-%Y",
+                        "title":"Date"
+                     },
+                     {
+                        "field":"New_cases",
+                        "format":",.0f",
+                        "title":"New cases(X1000)"
+                     },
+                     {
+                        "field":"New_deaths",
+                        "format":",.0f",
+                        "title":"New deaths"
+                     }
+                  ]
+               }
+            },
+            {
+               "mark":{
+                  "type":"line",
+                  "strokeWidth":4
+               },
+               "encoding":{
+                  "x":{
+                     "field":"Date",
+                     "type":"temporal",
+                     "scale":{
+                        "domain":{
+                           "param":"brush"
+                        }
+                     },
+                     "axis":{
+                        "title":""
+                     }
+                  },
+                  "y":{
+                     "field":"New_deaths",
+                     "type":"quantitative"
+                  },
+                  "color":{
+                     "value":"red"
+                  },
+                  "tooltip":[
+                     {
+                        "field":"Date",
+                        "timeUnit":"yearmonthdate",
+                        "format":"%d-%m-%Y",
+                        "title":"Date"
+                     },
+                     {
+                        "field":"New_cases",
+                        "format":",.0f",
+                        "title":"New cases(X1000)"
+                     },
+                     {
+                        "field":"New_deaths",
+                        "format":",.0f",
+                        "title":"New deaths"
+                     }
+                  ]
+               }
+            }
+         ]
+      },
+      {
+         "title":"Filter by Date range",
+         "width":750,
+         "height":60,
+         "params":[
+            {
+               "name":"brush",
+               "select":{
+                  "type":"interval",
+                  "encodings":[
+                     "x"
+                  ]
+               }
+            }
+         ],
+         "mark":"area",
+         "encoding":{
+            "x":{
+               "field":"Date",
+               "type":"temporal"
+            },
+            "y":{
+               "field":"Cumulative_cases",
+               "type":"quantitative",
+               "axis":{
+                  "tickCount":3,
+                  "grid":false
+               },
+               "title":null
+            },
+            "tooltip":{
+               "field":"Date",
+               "timeUnit":"yearmonthdate",
+               "format":"%d-%m-%Y",
+               "title":"Date"
+            }
+         }
+      }
+   ]
+}
