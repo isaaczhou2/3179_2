@@ -21,7 +21,6 @@
   <!-- CSS file -->
   <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
 
-
 </head>
 
 <body>
@@ -32,7 +31,9 @@
     <div class="pure-g">
       <div class="pure-u-1-1">
         <h1>FIT3179 Assignment 2 Visualisations</h1>
-        <p>This is the FIT3179 Assignment 2 Visualisations page.</p>
+        <h2>Introduction</h2>
+        <p>Coivd 19 is is a contagious disease caused by a virus, SARS-CoV-2. Causing patients to have symptoms such as fever, cough, headache, fatigue, breathing difficulties, loss of smell, and loss of taste etc.</p>
+        <p>With the virus spreading, the number of cases and deaths continue to rise. The following visualisations would give you a general idea on the spreading of the virus.</p>
       </div>
     </div>
     <!-- end pure grid group -->
@@ -70,27 +71,44 @@
           <p> On the left hand side, is a bubble chart show the following:
             Each bubble is a country, the x-axis represents its cumulative cases.
             <p>And the y-axis represents its cumulative deaths.</p>
-            <p>The size of the bubble is a representation of death per 10,000 cases,
+            <p>The size of the bubble is a representation of death for every 10,000 cases,
                 the colors are different WHO regions of these countries/regions.</p>
             <p>Use the filters below to find out more details.</p>
           </p>
         </div>
       </div>
 
+      
 
+        <div class="pure-g">
+  </div>
+  <div class="pure-u-1-1">
+    <p> 
+
+    </p>
+</div>
 
     </div>
+    <p>The following area chart would show the number of cummulative cases and death by date, and due to the huge differences of the numbers, the cumulative cases is devided by 100 to create the chart</p>
+    <p>And the line chart is the number of new caess and new death by date, and the new cases number needs to be timed by 1000.</p>
+    <p>Feel free to click and drag on the bottom area chart, it is a cumulative cases chart where you can choose the date range for the top two charts.</p>
     <!-- end pure grid group -->
     <div id="area_chart"></div>
-    <script type="text/javascript">
 
+    <script type="text/javascript">
         var spec2 = "js/area_chart.vg.json";
         vegaEmbed('#area_chart', spec2).then(function(result) {
           // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
         }).catch(console.error);
       </script>
+    <div class="pure-u-1-1">
+      <p>This is the FIT3179 Assignment 2 Visualisations page. Created by Chengjia Zhou</p>
+    </div>
 
   </div> <!-- end page -->
+
+  
+
 
   <script type="text/javascript">
     var specVis1 = "line-chart-responsive.json";
@@ -110,6 +128,7 @@
       // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
     }).catch(console.error);
   </script>
+  
 </body>
 
 </html>
